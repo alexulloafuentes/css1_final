@@ -5,3 +5,16 @@ header
     text-shadow: 2px 2px 2px #02010a;
     border-radius: 10px;
 }
+
+#menu
+{
+    margin-left: 70%;
+}
+
+
+#lista1 li 
+{
+    display:inline;
+    margin: 5%;        
+}
+
