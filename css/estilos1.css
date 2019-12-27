@@ -1,9 +1,16 @@
+@font-face
+{
+   font-family: "DancingScript";
+   src: url("../letras/DancingScript-Regular.ttf")
+}
+
 header
 {
     background-color: #5b7989;
     color: white;
     text-shadow: 2px 2px 2px #02010a;
     border-radius: 10px;
+    font-family: "DancingScript";
 }
 
 #menu
@@ -11,10 +18,14 @@ header
     margin-left: 70%;
 }
 
-
 #lista1 li 
 {
     display:inline;
     margin: 5%;        
 }
 
+#lista1 li a
+{
+    color: white;
+    text-decoration: none;    
+}
