@@ -1,61 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta content="utf-8"/>
+        <meta charset="utf-8"/>
         <meta name="author" content="reynaldo alex ulloa fuentes"/>
-        <meta name="description" content="proyecto final de css"/>
-        <meta name="keywords" content="html,css,javascript"/>
-        <meta name="viewport" content="width=width-device,user-scalable=no,initial-scale=1.0"/>
-        <title>COMENZANDO CON LA FOTOGRAFIA</title>
-        <link rel="stylesheet" href="css/estilos1.css"/>
+        <meta name="description" content="pagina proyecto css"/>
+        <meta name="keywords" content="html,css"/>
+        <meta name="viewport" content="width=900px, initial-scale=1.0, user-scalable=yes,maximum-scale=1.0"/>
+        <title>PAGINA DE INICIO</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos1.css"/>        
     </head>
     <body>
-       
-        <header>
-            <h1 id="logo_principal">
-                COMENZANDO CON LA FOTOGRAF&Iacute;A
-            </h1>
-            <nav id="menu">
-                <a href="paisajes.html" id="menu_paisajes">PAISAJES</a>
-                <a href="retratos.html" id="menu_retratos">RETRATOS</a>
-                <a href="imagenes.html" id="menu_imagenes">INICIO</a>                                
-            </nav>
-        </header>
-       
-        <section id="imagen_central">
-            <img src="imagenes/imagen1.jpg" alt="mikrotik_logo" title="mikrotik_logo" id="imagen1"/>
-        </section>
-        
-        <section id="imagenes_secundarias" class="contenedor">
-            <img src="imagenes/imagen2.png" alt="switch_logo" title="switch_logo" id="imagen2"/>
-            <img src="imagenes/imagen3.png" alt="router_logo" title="router_logo" id="imagen3"/>
-        </section>
+        <div id="contenido">
+            <header class="contenedor1">
+                <div class="bloque1" id="titulo">
+                    <h1>
+                        COMENZANDO CON LA FOTOGRAF&Iacute;A
+                    </h1>
+                </div>
+                <div class="bloque2" id="menu">
+                    <a href="paisajes.html" id="menu_paisajes">PAISAJES</a>
+                    <a href="retratos.html" id="menu_retratos">RETRATOS</a> 
+                    <a href="index.html" id="menu_imagenes">INICIO</a>       
+                </div>
+            </header>
+            
+            <section id="imagen_central">
+                <img src="imagenes/imagen1.jpg" alt="imagen1" title="imagen1"/>
+            </section>
+            
+            <section class="contenedor2" id="imagenes_secundarias">
+                <div class="bloque3">
+                    <figure>
+                        <img src="imagenes/imagen2.png" alt="imagen2" title="imagen2" id="imagen2"/>
+                        <figcaption>
+                            <a href="paisajes.html" id="menu_paisajes">PAISAJES</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="bloque4">
+                    <figure>
+                        <img src="imagenes/imagen3.png" alt="imagen3" title="imagen3" id="imagen3"/>
+                        <figcaption>
+                            <a href="retratos.html" id="menu_retratos">RETRATOS</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
 
-        <footer id="pie_de_pagina" class="contenedor1">
-            <div class="bloque1">
-                <h2>CONTACTOS</h2>
-                <p>email: alexulloafuentes&#64;gmail.com</p>>
-            </div>
-            <div class="bloque2">
-                <h2>TERMINOS</h2>
-                <p>Pagina de uso libre</p>
-            </div>
-            <div class="bloque3">
-                <h2>REDES SOCIALES</h2>
-                <figure>
-                    <img src="imagenes/imagen4.jpg" alt="twitter" title="twitter" id="imagen4"/>
-                </figure>
-                <figure>
-                    <img src="imagenes/imagen5.jpg" alt="whatsapp" title="whatsapp" id="imagen5"/>
-                </figure>
-                <figure>
-                    <img src="imagenes/imagen6.png" alt="facebook" title="facebook" id="imagen6"/>
-                </figure>
-            </div>
-            <div class="bloque4">
-                <h2>AUTOR</h2>
-                <p>REYNALDO ALEX ULLOA FUENTES&COPY;2020</p>
-            </div>
-        </footer>
+            <footer class="contenedor3">
+                <div class="bloque5">
+                    <h3>
+                        CONTACTOS
+                    </h3>
+                    <p>
+                        Direcci&oacute;n: Av. 6 de Agosto. Edificio Centenario
+                    </p>
+                    <p>
+                        email: alexulloafuentes@gmail.com
+                    </p>
+                </div>
+                <div class="bloque6">
+                    <h3>
+                        POL&Iacute;TICAS DE USO
+                    </h3>
+                    <p>
+                        P&aacute;gina de uso libre
+                    </p>
+                </div>
+                <div class="bloque7">
+                    <h3>
+                        REDES SOCIALES
+                    </h3>
+                    <p>
+                       <img src="imagenes/imagen4.jpg" alt="twitter" title="twitter" id="imagen4">
+                    </p>
+                    <p>
+                        <img src="imagenes/imagen5.jpg" alt="whatsapp" title="whatsapp" id="imagen5">
+                    </p>
+                    <p>
+                        <img src="imagenes/imagen6.png" alt="facebook" title="facebook" id="imagen6">
+                    </p>
+                </div>
+                <div class="bloque8">
+                    <h3>
+                        DERECHOS
+                    </h3>
+                    <p>
+                        REYNALDO ALEX ULLOA FUENTES &COPY; 2020
+                    </p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
